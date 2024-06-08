@@ -48,7 +48,7 @@ function next() {
     document.getElementById("results").getElementsByTagName("h2")[0].classList.add("hidden");
     document.getElementById("results").getElementsByTagName("h2")[1].classList.add("hidden");
     currentQuestions++;
-    if (currentQuestions == 6) {
+    if (currentQuestions == 7) {
         let finished = document.getElementById("finished");
         finished.classList.remove("hidden");
         finished.innerHTML = "You finished with a score of " + score + " out of 7!";
