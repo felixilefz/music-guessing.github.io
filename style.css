@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(234, 221, 202);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(155, 1, 24);
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#instructions {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+audio {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#options {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+
+td {
+    border: 4px solid #160a0a;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#optionsholder button {
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 20px;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(1, 3, 147);
+    color: aliceblue;
+}
+
+#optionsholder button:hover {
+    background-color: rgb(0, 30, 56);
+}
+
+#optionsholder {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+
+#next {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 20px;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 230, 0);
+    color: rgb(0, 18, 33);
+}
+
+#next:hover {
+    background-color: rgb(214, 192, 1);
+}
+
+#nextsection {
+    justify-content: center;
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}

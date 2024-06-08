@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>
+        Match The Music
+    </h1>
+    <h3>
+        How to Play:
+    </h3>
+    <div id="instructions">
+        <p>
+            Listen to the main audio clips and then listen to the other four. Pick the one you think is a part of the same song. 
+            All the main songs are from Frank Duarte. Picking the right answer gives 1 point.
+        </p>
+    </div>
+    
+    <h2 id="score">
+        Current Score: 0/5
+    </h2>
+    
+    <div id="question1">
+        <h2>
+            Current Song: From the Alanta to the Sea
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip1FromTheAlantaToTheSea.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clip2FromAlantaToTheSea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clipdanzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clipRisingSun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clipsongformothergaia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+
+    <div id="question2" class="hidden">
+        <h2>
+            Current Song: Hymn to the land of the Rising Sun
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip2RisingSun.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clipsongformothergaia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clipRisingSun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clip2FromAlantaToTheSea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clipsongformothergaia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="question3" class="hidden">
+        <h2>
+            Current Song: Yag Naban
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip1yagnaban.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clipdanzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clipRisingSun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clip2yagnaban.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clipsongformothergaia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="question4" class="hidden">
+        <h2>
+            Current Song: Hymn to the land of the Rising Sun
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clipRisingSun.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clipdanzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clip3alantatothesea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clip2yagnaban.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clip3risingSun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="question5" class="hidden">
+        <h2>
+            Current Song: The Valiant Green Company
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip1ValiantGreenCompany.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clip3alantatothesea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clip2ValiantGreenCompany.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clipdanzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clip2danzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="question6" class="hidden">
+        <h2>
+            Current Song: Song For Mother Gaia
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip1songformothergaia.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clip3alantatothesea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clip2danzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clip2songformothergaia.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clip3alantatothesea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="question7" class="hidden">
+        <h2>
+            Current Song: ??? (hidden)
+        </h2>
+        <div id="mainaudio">
+            <audio controls>
+                <source src="clip3alantatothesea.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+
+        <table id="options">
+            <tr>
+                <td width="50%">Option: 1
+                    <audio controls>
+                        <source src="clip4risingsun.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 2
+                    <audio controls>
+                        <source src="clip3valiantgreencompany.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+            <tr>
+                <td>Option: 3
+                    <audio controls>
+                        <source src="clip3danzon.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>Option: 4
+                    <audio controls>
+                        <source src="clip4alantatothesea.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <div id="optionsholder">
+        <button id="button1">
+            Option 1
+        </button>
+        <button id="button2">
+            Option 2
+        </button>
+        <button id="button3">
+            Option 3
+        </button>
+        <button id="button4">
+            Option 4
+        </button>
+        
+    </div>
+
+    <div id="results" class="hidden">
+        <h2 class="hidden">
+            Correct!
+        </h2>
+        <h2 class="hidden"> 
+            Wrong
+        </h2>
+        <div id="nextsection">
+            <button id="next">Next</button>
+        </div>
+    </div>
+    
+    
+    <h2 id="finished" class="hidden">
+        You finshed with a score of 
+    </h2>
+</body>
+</html>
